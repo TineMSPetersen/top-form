@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.sidebar {
+  background: url('/images/background.jpeg') no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.sidebar .wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30%;
+}
+
+.sidebar img {
+  width: 100px;
+}
+
+
+
